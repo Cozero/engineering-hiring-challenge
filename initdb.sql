@@ -2,7 +2,7 @@ CREATE TABLE IF NOT EXISTS metrics AS
 SELECT
   reported_at,
   (array ['Company1', 'Company2', 'Company3'])[floor(random() * 3 + 1)] AS organization_name,
-  random() * 0.0001 as emisions
+  random() * 0.0001 as emissions
 FROM
   generate_series(
     '2000-01-01 00:00:00',
