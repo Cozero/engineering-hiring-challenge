@@ -1,1 +1,2 @@
-console.log('empty');
+export * from './models/index';
+
