@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/naming-convention */
+
 import react from '@vitejs/plugin-react';
 import * as path from 'path';
 import { resolve } from 'path';

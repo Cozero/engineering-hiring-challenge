@@ -9,7 +9,18 @@ Hey hey!
 If you are seeing this is because you just got further in our recruitment process. 💪
 We hope you enjoy this little exercise!
 
-## Timing
+## Challenge Definition
+
+The technical challenge is composed of two tasks:
+1. Implement the *Dashboard for Metrics Data* issue (see *Issues* tab)
+2. Review the *Emissions Table* PR (see *Pull requests* tab)
+
+Good luck! 🍀
+
+When you're done, please drop us an email at jan.kratochvil@cozero.io.
+
+
+### Timing
 
 Schedule the time to complete the project on your terms.
 Before you start, please drop us a quick email at jan.kratochvil@cozero.io telling us when you expect to complete the project.
@@ -24,7 +35,9 @@ Please don't spend more than **eight hours** on the project.
 - Take your time to think; don't rush it.
 - Add any additional improvements to the codebase you'd like. Remember to explain them in PRs.
 
-## Getting Started
+## Codebase Information
+
+### Getting Started
 
 1. Ensure you have Docker installed and run the following command in the root directory to start the database.
 
@@ -47,12 +60,10 @@ cd packages/server; yarn run start:dev
 cd packages/client; yarn run start:dev
 ```
 
-## Technical Challenge Scope
+### Architecture
 
-The technical challenge is composed of two tasks:
-1. Implement the *Dashboard for Metrics Data* issue (see *Issues* tab)
-2. Review the *Emissions Table* PR (see *Pull requests* tab)
+The solution consists of three libraries:
+- `@cozero/lib` - A shared library used both by the client and server libraries.
+- `@cozero/server` - The API that connects to the Postgres database via [Prisma](prisma.io/).
+- `@cozero/client` - The frontend React application that talks to the API.
 
-Good luck! 🍀
-
-When you're done, please drop us an email at jan.kratochvil@cozero.io.
