@@ -5,7 +5,6 @@
   "author": "Cozero",
   "scripts": {
     "start:dev": "vite",
-    "generate:version": "cd ../.. && yarn generate:version",
     "build": "vite build",
     "serve": "vite preview",
     "lint": "eslint --fix --ext .ts,.tsx,.js,.jsx src",
