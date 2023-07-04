@@ -16,7 +16,6 @@
   ],
   "scripts": {
     "bootstrap": "yarn install && yarn run build:common && cd ./packages/server; npx prisma generate",
-    "generate:version": "./scripts/generate_version.sh",
     "start:lib": "yarn workspace @cozero/lib start:dev",
     "start:common": "(yarn start:lib)",
     "build:lib": "yarn workspace @cozero/lib build",
