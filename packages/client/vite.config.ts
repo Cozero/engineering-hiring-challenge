@@ -10,25 +10,25 @@ export default defineConfig({
   plugins: [
     react(),
     vitePluginImp({
-      libList: []
-    })
+      libList: [],
+    }),
   ],
   css: {
     preprocessorOptions: {
       less: {
-        javascriptEnabled: true
-      }
-    }
+        javascriptEnabled: true,
+      },
+    },
   },
   define: { 'process.env': process.env },
 
   optimizeDeps: {
-    include: ['tailwind.config.js']
+    include: ['tailwind.config.js'],
   },
   resolve: {
     alias: {
       '@': resolve(__dirname, './src'),
-      'tailwind.config.js': path.resolve(__dirname, 'tailwind.config.js')
-    }
-  }
+      'tailwind.config.js': path.resolve(__dirname, 'tailwind.config.js'),
+    },
+  },
 });
