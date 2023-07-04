@@ -64,6 +64,8 @@ cd packages/server; yarn run start:dev
 cd packages/client; yarn run start:dev
 ```
 
+One you run these commands, you should be able to navigate to http://localhost:8080/ and see a *Hello world* message.
+
 ### Architecture
 
 The solution consists of three libraries:
