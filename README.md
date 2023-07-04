@@ -47,30 +47,12 @@ cd packages/server; yarn run start:dev
 cd packages/client; yarn run start:dev
 ```
 
-## Exercise
+## Technical Challenge Scope
 
-Checkout to a feature branch from the PR branch
+The technical challenge is composed of two tasks:
+1. Implement the *Dashboard for Metrics Data* issue (see *Issues* tab)
+2. Review the *Emissions Table* PR (see *Pull requests* tab)
 
-1. **Step**
+Good luck! 🍀
 
-- Take a look at the code (keep in mind that we might not be following standard code patterns) and check if you have any suggestion
-- Check the opened PR and comment on the code as you would do in a normal situation
-
-2.  **Step**
-    We are looking to develop a dashboard containing reports about our emissions data (`metrics` table) and using a global filter.
-
-          **Tasks**:
-          - Create a global filter (fields: companyName and reportedAt)
-          - Make the changes that you find needed to the existing table to be part of the dashboard
-          - Create the following reports with blazing-fast results:
-            - Emissions the month grouped by company name (suggestion: group bar or stacked bar chart)
-            - Emissions the year grouped by company name (suggestion: group bar or stacked bar chart)
-            - Pie chart with the relative emissions of which company to the platform total emissions (example: Company1-60% Company2-20% Company3-20%)
-
-**Nice to have**
-
-- Error handling strategy
-- Frontend enhancement
-- Frontend state management
-- Improvement suggestions
-- Unit and integration tests
+When you're done, please drop us an email at jan.kratochvil@cozero.io.
