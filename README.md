@@ -39,21 +39,25 @@ Please don't spend more than **eight hours** on the project.
 
 ### Getting Started
 
-1. Ensure you have Docker installed and run the following command in the root directory to start the database.
+1. **Database.** Ensure you have Docker installed and go through the following steps.
+
+First, copy-paste `packages/server/.env.example` as `packages/server/.env`. Next, run the following commands.
 
 ```bash
 docker-compose up -d
+cd packages/server; yarn run db:migrate
 ```
 
-After this, you will get a Postgres instance running in your machine with a `metrics` table containing several rows. _Metrics_ is the main table relevant to the exercise.
+After this, you will get a Postgres instance running in your machine with a `metrics` table containing started data.
+_Metrics_ is the main table relevant to the exercise.
 
-2. Next, install dependencies and build the libs you need to run the solution.
+2. **Dependencies.** Next, install dependencies and build the libs you need to run the solution.
 
 ```bash
 yarn bootstrap
 ```
 
-3. Lastly, run the backend and frontend using the following commands in two separate terminals.
+3. **Running it.** Lastly, run the backend and frontend using the following commands in two separate terminals.
 
 ```bash
 cd packages/server; yarn run start:dev

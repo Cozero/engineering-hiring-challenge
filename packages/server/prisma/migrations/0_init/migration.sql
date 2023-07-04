@@ -7,4 +7,3 @@ CREATE TABLE "metrics" (
 
     CONSTRAINT "metrics_pkey" PRIMARY KEY ("id")
 );
-
