@@ -6,7 +6,7 @@
 # Cozero Senior Software Engineer Technical Challenge
 
 Hey hey!
-If you are seeing this is because you just got further in our recruitment process. 💪
+You are seeing this because you just got further in our recruitment process. 💪
 We hope you enjoy this little exercise!
 
 ## Challenge Definition
